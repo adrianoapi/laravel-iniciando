@@ -29,7 +29,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 > composer create-project laravel/laravel xpto
 
 Versão especifica
-> composer create-project laravel/laravel xpto "5.12.15"
+> composer create-project laravel/laravel xpto "5.2.15"
+
+## Adicionando rotas à esceções
+> \app\Http\Middleware\VerifyCsrfToken.php
+
+> protected $except = [
+	'foo',
+]
 
 ## License
 
