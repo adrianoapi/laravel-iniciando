@@ -35,8 +35,8 @@ Versão especifica
 > \app\Http\Middleware\VerifyCsrfToken.php
 
 > protected $except = [
-	'foo',
-]
+>	'foo',
+>]
 
 ## License
 
